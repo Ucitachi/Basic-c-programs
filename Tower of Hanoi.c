@@ -1,6 +1,7 @@
+//Tower of Hanoi
 #include<stdio.h>
 
-int towers(int n,char A,char B,char C)
+int towers(int n,char A,char B,char C)//Tower function
 {
  if(n==1)
 {
@@ -18,9 +19,9 @@ int main()
 {
     int n;
     printf("Enter the number of disk\n");
-    scanf("%d",&n);
+    scanf("%d",&n);//Input no. of disks
     printf("The moves involved in tower of Hanoi are\n");
-    towers(n,'A','B','C');
+    towers(n,'A','B','C');//call tower function
     return 0;
 }
 
